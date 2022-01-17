@@ -287,8 +287,8 @@ public class LinkedList{
 - PREVIOUS(p, L) ~ vrne predhodni polozaj `O(1)` --> izboljsava proti ENOSMERNEMU
 - RETRIEVE(p, L) ~ vrne element a_p na polozaju p  `O(1)`
 - INSERT(x, p, L) ~ vstavi element x na polozaj p `O(1)`
-- INSERT(x, L) ~ vstavi element x na poljuben polozaj (konc al zacetk)  `O(1)` --> izboljsava proti ENOSMERNEMU
-- DELETE(p, L) ~ zbrise element a_p na polozaju p `O(1)`
+- INSERT(x, L) ~ vstavi element x na poljuben polozaj (konc al zacetk)  `O(1)` 
+- DELETE(p, L) ~ zbrise element a_p na polozaju p `O(1)` --> izboljsava proti ENOSMERNEMU
 - EMPTY(L) ~ preveri ce je seznam prazen `O(1)`
 - END(L) ~ vrne polozaj, ki sledi zadnjemu elementu seznama `O(1)`
 - OVEREND(p, L) ~ preveri ce je p = END(L) `O(1)`
